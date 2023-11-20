@@ -1,0 +1,94 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins' , sans-serif;
+}
+:root{
+    --blueWeb-color: rgb(29, 155, 240);
+    --yellWeb-color: rgb(255, 212, 0);
+    --redWeb-color: rgb(249, 24, 128);
+    --MovWeb-color: rgb(120, 86, 255);
+    --OrangeWeb-color: rgb(255, 122, 0);
+    --greenWeb-color: rgb(0, 186, 124);
+}
+.centerprogress{
+    margin-top: 15%;
+}
+.progress_bars{
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    /* margin: 30%; */
+    width: 50%;
+    margin: auto;
+
+    padding: 20px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 15px;
+
+}
+.progress_bar{
+    display: flex;
+    flex-direction: column;
+    
+}
+.progress_title{
+    font-size: 1.1rem;
+    color: black;
+    text-transform: uppercase;
+}
+.progress_con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px ;
+    margin-top: 10px;
+}
+span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--OrangeWeb-color);
+    transition: all .4s ease-in-out;
+    width: 100%;
+    border-radius: 10px;
+}
+.progress_span{
+    width: 80%;
+    height: .45rem;
+    background-color: black;
+    margin-left: 1rem;
+    position: relative;
+    margin-bottom: 10px;
+    top: 5px;
+    border-radius: 10px;
+}
+.Html{
+    background-color: var(--redWeb-color);
+    width: 90%;
+}
+.Css{
+    width: 80%;
+    background-color: var(--blueWeb-color);
+}
+.Js{
+    width: 70%;
+    background-color: var(--MovWeb-color);
+}
+.Tail{
+    width: 80%;
+    background-color: var(--greenWeb-color);
+}
+.Scss{
+    background-color: var(--yellWeb-color);
+    width: 80%;
+}
+.Py{
+    width: 65%;
+    background-color: var(--OrangeWeb-color);
+}
